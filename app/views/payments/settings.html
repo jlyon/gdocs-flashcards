@@ -1,0 +1,193 @@
+<h2>ProudCity Payments Details</h2>
+
+<div class="row">
+    <div class="col-md-8">
+
+
+        <form class="form-horizontal" ng-submit="submit()">
+
+            <div class="alert alert-success" ng-if="msg == 'success'">
+                Your payment settings have been saved. We will begin the verification process and contact you if we need
+                any additional information. You can now start adding Payment fields to your forms.
+            </div>
+
+            <div class="alert alert-danger" ng-if="msg && msg != 'success'">
+                There has been an error processing your submission: <strong>{{msg}}</strong>. Please correct the errors
+                and try submitting the form again.
+            </div>
+
+            <h3>Public information</h3>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Email:</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" ng-model="account.email" required
+                           placeholder="Enter email">
+                    <div class="text-muted">This will be used for bank account transfer notifications.</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Legal entity name:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.business_name" required
+                           placeholder="Enter business name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Website:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.business_url" placeholder="https://">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Statement descriptor:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.statement_descriptor" required
+                           placeholder="">
+                    <div class="text-muted">Appears on your customer's card statement.</div>
+                </div>
+            </div>
+
+            <hr/>
+
+            <h3>Contact information</h3>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Street Address 1:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.address.line1"
+                           placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Street Address 2:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.address.line2"
+                           placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">City:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.address.city" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">State:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.address.state"
+                           placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" for="">Zip code:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.address.postal_code"
+                           placeholder="">
+                </div>
+            </div>
+
+            <hr/>
+
+            <h3>Bank account information</h3>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">Routing number:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.external_account.routing_number" required
+                           placeholder="Typically the first number on your check">
+                </div>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">Account number:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.external_account.account_number" required
+                           placeholder="Typically the second number on your check">
+                </div>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">Tax ID number (TIN):</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.business_tax_id" required
+                           placeholder="XX-XXXXXXX">
+                </div>
+            </div>
+            <div class="form-group" ng-if="!isNew">
+                <label class="text-right col-sm-3" for="">Routing number:</label>
+                <label class="col-sm-9">
+                    {{account.external_accounts.data[0].routing_number}}
+                </label>
+            </div>
+            <div class="form-group" ng-if="!isNew">
+                <label class="text-right col-sm-3" for="">Account number:</label>
+                <label class="col-sm-9">
+                    Last four digits: {{account.external_accounts.data[0].last4}}
+                </label>
+            </div>
+            <div class="alert alert-warning" ng-if="!isNew">Please <a href="https://proudcity.com/contact">contact
+                us</a> if you need to make any changes to your Routing number, Account number, or Tax ID number.
+            </div>
+
+            <hr/>
+
+            <h3>Legal representative</h3>
+            <p>This must be completed by the Finance Director, or another legal representative. Personal information, as
+                well as your organization information is used to verify the account.</p>
+            <div class="form-group" ng-if="!isNew">
+                <label class="text-right col-sm-3" for="">Name:</label>
+                <label class="col-sm-9">
+                    {{account.legal_entity.first_name}} {{account.legal_entity.last_name}}
+                </label>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">First name:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.first_name" placeholder="">
+                </div>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">Last name:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" ng-model="account.legal_entity.last_name" placeholder="">
+                </div>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">Date of Birth:</label>
+                <div class="col-sm-9">
+                    <input type="date" ng-model="account.legal_entity.dob">
+                </div>
+            </div>
+            <div class="form-group" ng-if="isNew">
+                <label class="control-label col-sm-3" for="">SSN last four:</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" ng-model="account.legal_entity.ssn_last_4"
+                           placeholder="xxx-xx-____">
+                    <div class="text-muted">Enter the last four digits of your Social Security Number.</div>
+                </div>
+            </div>
+            <div class="alert alert-warning" ng-if="!isNew">Please <a href="https://proudcity.com/contact">contact
+                us</a> if you need to make any changes to the legal representative's Name, Date of Birth or SSN.
+            </div>
+
+            <hr/>
+
+            <div class="form-group">
+                <div class="">
+                    <div class="checkbox">
+                        <label>
+                            <span ng-if="isNew"><input type="checkbox" ng-model="account.tos_acceptance">I agree</span>
+                            <span ng-if="!isNew">You have previously agreed</span>
+                            to the ProudCity <a target="_blank" href="https://proudcity.com/terms-of-service/">Services
+                            Agreement</a> and the <a target="_blank" href="https://stripe.com/connect-account/legal">Stripe
+                            Connected Account Agreement</a></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-9">
+                    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+</div>

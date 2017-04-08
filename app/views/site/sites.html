@@ -1,0 +1,56 @@
+<div class="container">
+
+
+    <input class="form-control pull-right" style="margin-top:20px;max-width:200px;" ng-model="query"
+           placeholder="Search"/>
+    <h1>Sites</h1>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="panel panel-default panel-body" ui-sref="distros">
+                <a ui-sref="distros" class="thumb new"><i class="fa fa-plus-circle"></i></a>
+                <h3><a ui-sref="distros">Create new site</a></h3>
+                <a href="{{site.url}}" class="btn btn-default" target="_blank" style="visibility: hidden">View site</a>
+                <!--this is just for padding-->
+            </div>
+        </div>
+
+
+        <div class="col-md-4" ng-repeat="site in sites | filter:query | orderBy: 'name' ">
+            <div class="panel panel-default panel-body">
+                <a class="thumb" ui-sref="site.dashboard({'siteId': site._id})">
+                    <img src="{{site.thumb}}"/>
+                </a>
+                <h3><a ui-sref="site.dashboard({'siteId': site._id})">{{site.name}}</a></h3>
+                <a href="{{site.url}}/wp-admin/edit.php?post_type=page" class="btn btn-default pull-right"
+                   target="_blank">Manage content</a>
+                <a href="{{site.url}}" class="btn btn-default" target="_blank">View site</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<style>
+    .panel {
+    }
+
+    .thumb {
+        height: 170px;
+        width: 100%;
+        background: #ccc url('https://my.proudcity.com/images/IconWhite.png') center no-repeat;
+        text-align: center;
+        line-height: 150px;
+        font-size: 50px;
+        color: white !important;
+        text-decoration: none !important;
+        display: block;
+        overflow: hidden;
+    }
+
+    .thumb.new {
+        background: #0071BC;
+    }
+</style>

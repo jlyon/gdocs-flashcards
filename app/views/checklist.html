@@ -1,0 +1,37 @@
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default" ng-repeat="item in checklist">
+        <div class="panel-heading">
+            <h4 class="panel-title" ng-click="accordionClick(item, $event)">
+                <i class="fa fa-fw {{item.icon}} text-muted"></i> {{item.title}}
+                <a ng-if="site && item.link && !item.active" class="btn btn-sm pull-right"
+                   ng-class="item.status ? 'btn-success' : 'btn-default'" ng-click="doClick(item, $event)"
+                   title="{{item.title}} in this site's dashboard">
+                    <i class="fa fa-fw" ng-class="item.status ? 'fa-check' : 'fa-external-link'"></i>Do it
+                </a>
+            </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse"
+             ng-class="item.active != undefined && item.active ? 'in' : ''">
+            <div class="panel-body">
+
+                <div ng-if="site">
+                    <a class="btn btn" ng-class="item.status ? 'btn-success' : 'btn-default'"
+                       ng-click="doClick(item, $event)" title="{{item.title}} in this site's dashboard">
+                        <i class="fa fa-fw" ng-class="item.status ? 'fa-check' : 'fa-external-link'"></i>Do it
+                    </a>
+                    <a class="btn btn" ng-class="item.status ? 'btn-success' : 'btn-default'"
+                       ng-click="doneToggle(item, $event)">
+                        <i class="fa fa-fw" ng-class="item.status ? 'fa-check' : 'fa-check'"></i>Mark as done
+                    </a>
+                </div>
+
+                <p>{{item.description}}</p>
+                <div ng-if="item.video">
+                    <hr/>
+                    <!--<iframe width="560" height="315" ng-src="{{item.video}}" frameborder="0" allowfullscreen></iframe>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
