@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-push-3">
+            <h1>Launch a site</h1>
+            <h3>Your new site will take approximately <strong>5 minutes</strong> to build</h3>
+
+            <form ng-submit="submit(site)">
+                <div class="form-group">
+                    <label><span>Dsitribution Type: *</span></label>
+                    <input type="text" ng-model="site.type" class="form-control" required/>
+                    <!--<p ng-if="!isAgency" class="text-muted">Typically this is a city, but it can also be a county, agency, state, etc.</p>-->
+                </div>
+                <div class="form-group">
+                    <label><span>City: *</span></label>
+                    <input type="text" ng-model="site.city" class="form-control" required/>
+                    <!--<p ng-if="!isAgency" class="text-muted">Typically this is a city, but it can also be a county, agency, state, etc.</p>-->
+                </div>
+                <div class="form-group">
+                    <label>State: *</label>
+                    <input type="text" ng-model="site.state" class="form-control" required/>
+                    <p class="text-muted">Your two-letter state abbreviation.</p>
+                </div>
+                <div class="form-group">
+                    <label>Site Name: *</label>
+                    <a href="#" ng-click="updateName($event)" title="Set to City"><i
+                        class="fa fa-fw fa-refresh"></i></a>
+                    <input type="text" ng-model="site.name" class="form-control" required/>
+                </div>
+                <div class="form-group">
+                    <label>Namespace: *</label>
+                    <input type="text" ng-model="site.namespace" class="form-control" required/>
+                </div>
+                <div class="form-group">
+                    <label>App: *</label>
+                    <a ng-click="updateApp($event)" title="Update app name from City and State"><i
+                        class="fa fa-fw fa-refresh"></i></a>
+                    <input type="text" ng-model="site.app" class="form-control" required/>
+                </div>
+                <div class="form-group">
+                    <label>Subdomain: *</label>
+                    <a ng-click="updateSubdomain($event)" title="Update subdomain from City and State"><i
+                        class="fa fa-fw fa-refresh"></i></a>
+                    <input type="text" ng-model="site.subdomain" class="form-control" required/>
+                </div>
+                <div class="form-group">
+                    <label>URL: *</label>
+                    <a ng-click="updateUrl($event)" title="Update URL from subomain"><i class="fa fa-fw fa-refresh"></i></a>
+                    <input type="text" ng-model="site.url" class="form-control" required/>
+                    <p class="text-muted">Include the https://</p>
+                </div>
+                <div class="form-group">
+                    <label>Source database:</label>
+                    <input type="text" ng-model="site.db" class="form-control"/>
+                    <p class="text-muted">Leave this blank to use the default ProudCity database dump.</p>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" ng-model="site.build" ng-true-value="true" ng-false-value="0"/>
+                        Build this site
+                    </label>
+                    <p class="text-muted">Leave checked if you want to build the site. Uncheck to only create a record
+                        in the ProudCity API.</p>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Launch"/>
+            </form>
+
+        </div>
+    </div>
+</div>

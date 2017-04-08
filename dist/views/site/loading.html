@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Building {{site.name}}</h1>
+    <div class="progress">
+        <div id="checklist-progress" class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0"
+             aria-valuemax="10" style="width:{{stage.progress}}%"></div>
+    </div>
+    <h3 class="text-center">{{stage.label}}</h3>
+
+    <div ng-if="status == 'live'" class="text-center" style="margin-top:50px;">
+        <a class="btn btn-primary btn-lg" ui-sref="site.dashboard({siteId: site._id})"><i
+            class="fa fa-fw fa-dashboard"></i>Take me to my Dashboard</a>
+    </div>
+    <div ng-if="status != 'live'" class="text-center" style="margin-top:50px;">
+        <div>While you're waiting, let's learn a little more about ProudCity</div>
+        <iframe style="margin:10px auto;" width="560" height="315" src="https://www.youtube.com/embed/KyjmUMX2meo"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+

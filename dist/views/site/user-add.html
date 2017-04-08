@@ -1,0 +1,18 @@
+<form ng-submit="submit(form)">
+    <div class="form-group">
+        <label for="emails">Email address:</label>
+        <textarea cols="60" rows="3" ng-model="form.emails" class="form-control" required></textarea>
+        <p class="text-muted">Enter one email address per line.</p>
+    </div>
+    <div class="form-group">
+        <label for="role">Role:</label>
+        <select class="form-control" ng-model="form.role" required>
+            <option ng-repeat="role in roles" value="{{role.value}}">{{role.label}}</option>
+        </select>
+    </div>
+    <!--<div class="form-group">
+      <label for="role">Custom message:</label>
+      <textarea cols="60" rows="3" model="form.message" class="form-control"></textarea>
+    </div>-->
+    <input type="submit" class="btn btn-primary" value="Invite"/>
+</form>
