@@ -47,9 +47,9 @@ angular.module('app', [
                 // State Configurations //
                 //////////////////////////
                 $stateProvider
-                    .state("home", {
+                    .state("flashcards", {
                         url: '/flashcards?doc&sheet',
-                        templateUrl: 'views/home.html',
+                        templateUrl: 'views/flashcards.html',
                         // auth: true,
                         /*resolve: {
                             cards: function ($stateParams, $rootScope, $http) {
@@ -73,45 +73,80 @@ angular.module('app', [
                                 green: '#cff9d0',
                                 blue: '#cfe6f9',
                                 purple: '#b687d3'
-                            }
+                            };
+
+
 
                             $http({
                                 method: 'GET',
                                 url: feed
                             }).then(function successCallback(response) {
-                                console.log(response);
                                 var data = response.data.feed.entry;
-                                console.log(data);
                                 var out = [];
                                 for (var i=0; i<data.length; i++) {
                                     out.push({
-                                        word: data[i]['gsx$word']['$t'],
+                                        question: data[i]['gsx$question']['$t'],
                                         color: colors[data[i]['gsx$color']['$t']] ? colors[data[i]['gsx$color']['$t']] : 'white',
-                                        recording: data[i]['gsx$recording']['$t']
+                                        recording: data[i]['gsx$recording'] ? data[i]['gsx$recording']['$t'] : null,
+                                        answer: data[i]['gsx$answer'] ? data[i]['gsx$answer']['$t'] : null,
+                                        pronunciation: data[i]['gsx$pronunciation'] ? data[i]['gsx$pronunciation']['$t'] : null
                                     });
                                 }
                                 out = shuffle(out);
-                                $scope.data = out;
-                                $scope.total = out.length;
-                                $scope.i = 0;
-                                go(0);
+                                resetList(out);
 
                             }, function errorCallback(response) {
                                 // called asynchronously if an error occurs
                                 // or server returns response with an error status.
                             });
 
+                            var resetList = function(data) {
+                                $scope.data = data;
+                                $scope.total = data.length;
+                                $scope.i = 0;
+                                go(0);
+                            }
+
                             var go = $scope.go = function(delta) {
                                 $scope.i += delta;
-                                $scope.item = $scope.data[$scope.i];
-                                $scope.stage = 'read';
-                                oAudio.pause();
-                                oAudio.src = $scope.item.recording;
+                                if ($scope.i < 0) {
+                                    $scope.i = 0;
+                                }
+                                if ($scope.i >= $scope.total) {
+                                    $scope.stage = 'done';
+                                }
+                                else {
+                                    $scope.item = $scope.data[$scope.i];
+                                    $scope.stage = 'question';
+                                    oAudio.pause();
+                                    oAudio.src = $scope.item.recording;
+                                }
                             }
 
                             var play = $scope.play = function() {
-                                $scope.stage = 'play';
+                                $scope.stage = 'answer';
                                 oAudio.play();
+                            }
+
+
+                            $scope.answers = {
+                                correct: 0,
+                                incorrect: 0
+                            }
+                            var answer = $scope.answer = function(status) {
+                                $scope.item.status = status;
+                                $scope.answers[status] ++;
+                                go(1);
+                            }
+
+                            $scope.filteredList = function(status) {
+                                if ($scope.answers[status] > 0) {
+                                    var data = $scope.data.filter(function (record) {
+                                        return (record.status == 'incorrect');
+                                    });
+                                    resetList(data);
+                                }
+
                             }
 
                             function shuffle(array) {
@@ -135,6 +170,20 @@ angular.module('app', [
 
 
                             //$scope.sites = cards;
+
+                        }
+                    })
+                    .state("done", {
+                        url: '/congratulations?doc&sheet&color',
+                        templateUrl: 'views/done.html',
+                        // auth: true,
+                        /*resolve: {
+                         cards: function ($stateParams, $rootScope, $http) {
+
+                         }
+                         },*/
+                        controller: function ($scope, $rootScope, $state, $filter, $http) {
+                            $scope.color = $state.params.color;
 
                         }
                     })

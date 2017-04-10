@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c1dc77-2395-4057-bde7-d206732ac56e" name="Default" comment="" />
+    <list default="true" id="c4c1dc77-2395-4057-bde7-d206732ac56e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/analyticsRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/intranetRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/paymentsRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/siteRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/startRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/userRoutes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analytics/analytics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analytics/analyticsSettings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/app-311-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq-child-answers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq-child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-status-result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-status.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-location.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-officials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-boundary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-hourly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-location.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-neighborhood.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-officials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-weather.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/map-wrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/menu311.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment-success.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/pc-locate-save.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/pc-locate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/post/gravityform-iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search/granicus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-candidates.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-how.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-issues.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-wrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/checklist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/directory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/intranet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/default-card-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social-static.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pc-locate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/loading.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/local-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create-admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create-city.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-distros.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-edit-admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/sites.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/user-add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/start/start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/analytics/analytics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/analytics/analyticsSettings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/app-311-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq-child-answers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq-child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-status-result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-status.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-location.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-officials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-boundary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-hourly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-location.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-neighborhood.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-officials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-weather.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/map-wrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/menu311.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment-success.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment-type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/pc-locate-save.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/pc-locate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/post/gravityform-iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search/granicus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-address.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-candidates.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-how.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-issues.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-wrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/checklist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/directory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/intranet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/default-card-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social-static.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/payments/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/payments/settings.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/pc-locate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/dashboard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/loading.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/local-embed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/plugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create-admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create-city.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-distros.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-edit-admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/sites.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/user-add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/start/start.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/user/login.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/app.min.js" afterPath="$PROJECT_DIR$/dist/js/app.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/app.templates.js" afterPath="$PROJECT_DIR$/dist/views/app.templates.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +157,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+            <state relative-caret-position="223">
+              <caret line="197" column="17" lean-forward="false" selection-start-line="197" selection-start-column="17" selection-end-line="197" selection-end-column="17" />
+              <folding>
+                <marker date="1491799727000" expanded="true" signature="1823:7499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/a.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flashcards.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,21 +215,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -54,41 +232,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userRoutes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/routes/userRoutes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siteRoutes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/routes/siteRoutes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="38" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>play</find>
+      <find>oAudio</find>
       <find>google-spreadsheets-parser</find>
+      <find>word</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$scope.audio</replace>
+      <replace>question</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/dist/googleSpreadsheetsParser.js" />
         <option value="$PROJECT_DIR$/app/scss/app.scss" />
         <option value="$PROJECT_DIR$/app/views/home.html" />
+        <option value="$PROJECT_DIR$/app/views/done.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
+        <option value="$USER_HOME$/Downloads/a.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/a.csv" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/views/flashcards.html" />
       </list>
     </option>
   </component>
@@ -109,6 +283,7 @@
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -134,20 +309,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,7 +398,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,6 +430,13 @@
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v5.12.0/bin/node" />
     <property name="node.js.selected.package.jscs" value="" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Angular2HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Downloads" />
+      <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -355,12 +523,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491609010101</updated>
-      <workItem from="1491609011373" duration="7704000" />
+      <workItem from="1491609011373" duration="15263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7704000" />
+    <option name="totallyTimeSpent" value="15263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -371,9 +539,9 @@
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -439,27 +607,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="707">
+          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/a.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/a.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="223">
+          <caret line="197" column="17" lean-forward="false" selection-start-line="197" selection-start-column="17" selection-end-line="197" selection-end-column="17" />
+          <folding>
+            <marker date="1491799727000" expanded="true" signature="1823:7499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
