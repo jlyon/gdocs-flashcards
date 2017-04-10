@@ -1,24 +1,21 @@
-## Angular Bootstrap Boilerplate
+# Google Docs Flashcards
 
-### Quickstart
+# Example url:
+* Sight Words: http://flashcards.spiffyhosts.com/#/flashcards?doc=1pyCptrdv3-laxJPSbXda_bfC5HiyOlpeuP_LVgBVuxA&sheet=1
+* Alphabet: http://flashcards.spiffyhosts.com/#/flashcards?doc=1Wiciie7N2j4Mb75Bfj74s9jFlgbHzcGS1GlQH6InNnA&sheet=1
 
-Search index.html and app.js for "FILLME!" as these are some hardcoded values for typekit, anayltics, seo that need to be replaced.
+## To build
+```
+grunt publish
+```
 
-### Some common included functionality:
+## To push
+```
+git add dist && git commit -m "Initial dist subtree commit"
+git subtree push --prefix dist origin gh-pages
+```
+From https://gist.github.com/cobyism/4730490
 
-- UI Routing configured in HTML5 mode with redirects
-- Simple pages defined with app.pages
-- Meta data handling with simple metaInfo provider module.  Allows for setting of title, description, keywords definitions per page using UI-routing route.
-- Typekit
-- Share42
-- Google Analytics
 
-### Using:
-
-- Angular: ~1.2.27
-- UI Router: https://github.com/angular-ui/ui-router
-- Angular Bindonce: https://github.com/Pasvaz/bindonce
-- "angular-bootstrap": "~0.12.0"
-- "bootstrap-sass-official": "~3.3.1"
-- "font-awesome": "~4.2.0"
-- "bourbon": "v3.2.3"
+## Helpful tools
+* Create downloadable links for google drive files (for direct link to audio files): http://directlink.booogle.net/
