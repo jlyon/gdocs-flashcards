@@ -21,7 +21,7 @@ angular.module('311AppParent').run(['$templateCache', function($templateCache) {
     "    }\n" +
     "\n" +
     "    .flashcard {\n" +
-    "        margin: 100px;\n" +
+    "        margin: 100px 0;\n" +
     "        font-size: 2em;\n" +
     "        min-height: 150px;\n" +
     "    }\n" +

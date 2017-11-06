@@ -2393,13 +2393,13 @@ void 0===window.ontransitionend&&void 0!==window.onwebkittransitionend?(CSS_PREF
 // of the passed in array variable and this would be difficult
 // to track down on the outside code
 queue=queue.concat(tasks),nextTick()}function nextTick(){if(queue.length){for(var items=queue.shift(),i=0;i<items.length;i++)items[i]();cancelFn||$$rAF(function(){cancelFn||nextTick()})}}var queue,cancelFn;/* waitUntilQuiet does two things:
-         * 1. It will run the FINAL `fn` value only when an uncanceled RAF has passed through
-         * 2. It will delay the next wave of tasks from running until the quiet `fn` has run.
-         *
-         * The motivation here is that animation code can request more time from the scheduler
-         * before the next wave runs. This allows for certain DOM properties such as classes to
-         * be resolved in time for the next animation to run.
-         */
+   * 1. It will run the FINAL `fn` value only when an uncanceled RAF has passed through
+   * 2. It will delay the next wave of tasks from running until the quiet `fn` has run.
+   *
+   * The motivation here is that animation code can request more time from the scheduler
+   * before the next wave runs. This allows for certain DOM properties such as classes to
+   * be resolved in time for the next animation to run.
+   */
 return queue=scheduler.queue=[],scheduler.waitUntilQuiet=function(fn){cancelFn&&cancelFn(),cancelFn=$$rAF(function(){cancelFn=null,fn(),nextTick()})},scheduler}],$$AnimateChildrenDirective=["$interpolate",function($interpolate){return{link:function(scope,element,attrs){function setData(value){value="on"===value||"true"===value,element.data(NG_ANIMATE_CHILDREN_DATA,value)}var val=attrs.ngAnimateChildren;isString(val)&&0===val.length?//empty attribute
 element.data(NG_ANIMATE_CHILDREN_DATA,!0):(
 // Interpolate and set the value, so that it is available to
@@ -2438,12 +2438,12 @@ var animationTimerData=element.data(ANIMATE_TIMER_KEY);animationTimerData&&($tim
 runner&&runner.complete(!rejected)}}function applyBlocking(duration){flags.blockTransition&&blockTransitions(node,duration),flags.blockKeyframeAnimation&&blockKeyframeAnimations(node,!!duration)}function closeAndReturnNoopAnimator(){
 // should flush the cache animation
 return runner=new $$AnimateRunner({end:endFn,cancel:cancelFn}),waitUntilQuiet(noop),close(),{$$willAnimate:!1,start:function(){return runner},end:endFn}}function onAnimationProgress(event){event.stopPropagation();var ev=event.originalEvent||event,timeStamp=ev.$manualTimeStamp||Date.now(),elapsedTime=parseFloat(ev.elapsedTime.toFixed(ELAPSED_TIME_MAX_DECIMAL_PLACES));/* $manualTimeStamp is a mocked timeStamp value which is set
-                         * within browserTrigger(). This is only here so that tests can
-                         * mock animations properly. Real events fallback to event.timeStamp,
-                         * or, if they don't, then a timeStamp is automatically created for them.
-                         * We're checking to see if the timeStamp surpasses the expected delay,
-                         * but we're using elapsedTime instead of the timeStamp on the 2nd
-                         * pre-condition since animationPauseds sometimes close off early */
+         * within browserTrigger(). This is only here so that tests can
+         * mock animations properly. Real events fallback to event.timeStamp,
+         * or, if they don't, then a timeStamp is automatically created for them.
+         * We're checking to see if the timeStamp surpasses the expected delay,
+         * but we're using elapsedTime instead of the timeStamp on the 2nd
+         * pre-condition since animationPauseds sometimes close off early */
 Math.max(timeStamp-startTime,0)>=maxDelayTime&&elapsedTime>=maxDuration&&(
 // we set this flag to ensure that if the transition is paused then, when resumed,
 // the animation will automatically close itself since transitions cannot be paused.
@@ -2658,12 +2658,12 @@ event=!animationDetails.structural&&hasAnimationClasses(animationDetails,!0)?"se
 // the `realRunner` object.
 runner.setHost(realRunner),notifyProgress(runner,event,"start",{}),realRunner.done(function(status){close(!status);var animationDetails=activeAnimationsLookup.get(node);animationDetails&&animationDetails.counter===counter&&clearElementAnimationState(getDomNode(element)),notifyProgress(runner,event,"close",{})})}),runner}function closeChildAnimations(element){var node=getDomNode(element),children=node.querySelectorAll("["+NG_ANIMATE_ATTR_NAME+"]");forEach(children,function(child){var state=parseInt(child.getAttribute(NG_ANIMATE_ATTR_NAME),10),animationDetails=activeAnimationsLookup.get(child);if(animationDetails)switch(state){case RUNNING_STATE:animationDetails.runner.end();/* falls through */
 case PRE_DIGEST_STATE:activeAnimationsLookup.remove(child)}})}function clearElementAnimationState(element){var node=getDomNode(element);node.removeAttribute(NG_ANIMATE_ATTR_NAME),activeAnimationsLookup.remove(node)}function isMatchingElement(nodeOrElmA,nodeOrElmB){return getDomNode(nodeOrElmA)===getDomNode(nodeOrElmB)}/**
-                 * This fn returns false if any of the following is true:
-                 * a) animations on any parent element are disabled, and animations on the element aren't explicitly allowed
-                 * b) a parent element has an ongoing structural animation, and animateChildren is false
-                 * c) the element is not a child of the body
-                 * d) the element is not a child of the $rootElement
-                 */
+     * This fn returns false if any of the following is true:
+     * a) animations on any parent element are disabled, and animations on the element aren't explicitly allowed
+     * b) a parent element has an ongoing structural animation, and animateChildren is false
+     * c) the element is not a child of the body
+     * d) the element is not a child of the $rootElement
+     */
 function areAnimationsAllowed(element,parentElement,event){var animateChildren,bodyElement=jqLite($document[0].body),bodyElementDetected=isMatchingElement(element,bodyElement)||"HTML"===element[0].nodeName,rootElementDetected=isMatchingElement(element,$rootElement),parentAnimationDetected=!1,elementDisabled=disabledElementsLookup.get(getDomNode(element)),parentHost=jqLite.data(element[0],NG_ANIMATE_PIN_DATA);for(parentHost&&(parentElement=parentHost),parentElement=getDomNode(parentElement);parentElement&&(rootElementDetected||(
 // angular doesn't want to attempt to animate elements outside of the application
 // therefore we need to ensure that the rootElement is an ancestor of the current element
@@ -2762,15 +2762,15 @@ animationEntry.beforeStart();var startAnimationFn,closeFn=animationEntry.close,t
 // right time.
 $$rAFScheduler(sortAnimations(toBeSortedAnimations))}),runner)}}]}],ngAnimateSwapDirective=["$animate","$rootScope",function($animate,$rootScope){return{restrict:"A",transclude:"element",terminal:!0,priority:600,// we use 600 here to ensure that the directive is caught before others
 link:function(scope,$element,attrs,ctrl,$transclude){var previousElement,previousScope;scope.$watchCollection(attrs.ngAnimateSwap||attrs["for"],function(value){previousElement&&$animate.leave(previousElement),previousScope&&(previousScope.$destroy(),previousScope=null),(value||0===value)&&(previousScope=scope.$new(),$transclude(previousScope,function(element){previousElement=element,$animate.enter(element,null,$element)}))})}}}];/**
-     * @ngdoc service
-     * @name $animate
-     * @kind object
-     *
-     * @description
-     * The ngAnimate `$animate` service documentation is the same for the core `$animate` service.
-     *
-     * Click here {@link ng.$animate to learn more about animations with `$animate`}.
-     */
+ * @ngdoc service
+ * @name $animate
+ * @kind object
+ *
+ * @description
+ * The ngAnimate `$animate` service documentation is the same for the core `$animate` service.
+ *
+ * Click here {@link ng.$animate to learn more about animations with `$animate`}.
+ */
 angular.module("ngAnimate",[],function(){
 // Access helpers from angular core.
 // Do it inside a `config` block to ensure `window.angular` is available.
