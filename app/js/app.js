@@ -67,11 +67,11 @@ angular.module('app', [
                             var oAudio = document.getElementById('myaudio');
 
                             var colors = {
-                                red: '#f79b9b',
-                                orange: '#f9d78b',
-                                yellow: '#f9f78b',
+                                red: '#ef2b2b',
+                                orange: '#f79013',
+                                yellow: '#fffa00',
                                 'light green': '#cff9d0',
-                                'dark green': '#A3CF90',
+                                'dark green': '#558c3d',
                                 blue: '#cfe6f9',
                                 purple: '#b687d3'
                             };
