@@ -33,6 +33,8 @@ angular.module('311AppParent').run(['$templateCache', function($templateCache) {
     "    }\n" +
     "\n" +
     "    .flashcard h2 {\n" +
+    "        font-family: 'Muli', serif;\n" +
+    "        font-weight: bold;\n" +
     "        font-size: 2em;\n" +
     "        line-height: 1.4em;\n" +
     "    }\n" +
