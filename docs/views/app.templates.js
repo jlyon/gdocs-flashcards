@@ -14,7 +14,7 @@ angular.module('311AppParent').run(['$templateCache', function($templateCache) {
     "        <span class=\"text-success\">Right: {{answers.correct}}</span>\n" +
     "        &nbsp;-&nbsp;\n" +
     "        <span class=\"text-danger\">Wrong: {{answers.incorrect}}</span>\n" +
-    "    </div>--><div class=\"footer-left\" ng-if=\"i < total\">Card {{i+1}} of {{total}}</div></footer><style>@import url('https://fonts.googleapis.com/css?family=Muli');\n" +
+    "    </div>--><div class=\"footer-left\" ng-if=\"i < total\">Card {{i+1}} of {{total}}</div></footer><style>@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');\n" +
     "\n" +
     "    .clickable {\n" +
     "        cursor: pointer;\n" +
@@ -27,13 +27,14 @@ angular.module('311AppParent').run(['$templateCache', function($templateCache) {
     "    }\n" +
     "\n" +
     "    .flashcard h1 {\n" +
-    "        font-family: 'Muli', serif;\n" +
+    "        font-family: 'Didact Gothic', serif;\n" +
     "        font-size: 5em;\n" +
     "        line-height: 1.4em;\n" +
+    "        font-weight: bold;\n" +
     "    }\n" +
     "\n" +
     "    .flashcard h2 {\n" +
-    "        font-family: 'Muli', serif;\n" +
+    "        font-family: 'Didact Gothic', serif;\n" +
     "        font-weight: bold;\n" +
     "        font-size: 2em;\n" +
     "        line-height: 1.4em;\n" +
