@@ -2,150 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c1dc77-2395-4057-bde7-d206732ac56e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/analyticsRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/intranetRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/paymentsRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/siteRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/startRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/routes/userRoutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analytics/analytics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/analytics/analyticsSettings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/app-311-wrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq-child-answers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq-child.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/faq/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-categories.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-create-map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-status-result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/issues/issue-status.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-address.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-location.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/local-officials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-boundary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-hourly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-location.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-neighborhood.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-officials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/local/service-weather.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/map-wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/map/view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/menu311.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment-success.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/payment/payment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/pc-locate-save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/pc-locate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/post/gravityform-iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search/granicus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/search/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-address.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-candidates.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-embed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-how.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-issues.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/apps/311App/vote/vote-wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/checklist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/directory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/intranet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/default-card-style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social-static.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social-timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/intranet/social/social.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/payments/settings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pc-locate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/local-embed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/plugins.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create-admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create-city.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-distros.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site-edit-admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/site.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/sites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/user-add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/site/users.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/start/start.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/user/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/analytics/analytics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/analytics/analyticsSettings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/app-311-wrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq-child-answers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq-child.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/faq/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-categories.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-create-map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-status-result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/issues/issue-status.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-address.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-location.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/local-officials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-boundary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-hourly.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-location.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-neighborhood.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-officials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/local/service-weather.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/map-wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/map/view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/menu311.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment-success.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/payment/payment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/pc-locate-save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/pc-locate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/post/gravityform-iframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search/granicus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/search/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-address.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-candidates.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-embed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-how.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-issues.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/apps/311App/vote/vote-wrapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/checklist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/directory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/intranet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/default-card-style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social-static.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social-timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/intranet/social/social.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/payments/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/payments/settings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/pc-locate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/local-embed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/plugins.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create-admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create-city.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-create.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-distros.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site-edit-admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/site.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/sites.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/user-add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/site/users.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/start/start.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/views/user/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/directives/checklist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/directives/pageReady.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/directives/pcLocate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/filters/absoluteUrlFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/filters/dayOfWeekFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/filters/termFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/filters/titlecaseFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/providers/wordpressService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scss/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/CNAME" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/bootstrap.css" afterPath="$PROJECT_DIR$/app/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/app.min.js" afterPath="$PROJECT_DIR$/dist/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/views/app.templates.js" afterPath="$PROJECT_DIR$/dist/views/app.templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/libraries.min.css" afterPath="$PROJECT_DIR$/docs/css/libraries.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/css/proudcity-patterns.min.css" afterPath="$PROJECT_DIR$/docs/css/proudcity-patterns.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/bootstrap.js" afterPath="$PROJECT_DIR$/docs/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/js/libraries.min.js" afterPath="$PROJECT_DIR$/docs/js/libraries.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,79 +30,103 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="197" column="17" lean-forward="false" selection-start-line="197" selection-start-column="17" selection-end-line="197" selection-end-column="17" />
-              <folding>
-                <marker date="1491799727000" expanded="true" signature="1823:7499" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/a.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flashcards.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="351">
+              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/scss/bootstrap.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+        <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assessment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/views/assessment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/bootstrap.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/less/bootstrap.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,6 +140,8 @@
       <find>oAudio</find>
       <find>google-spreadsheets-parser</find>
       <find>word</find>
+      <find>import</find>
+      <find>@import</find>
     </findStrings>
     <replaceStrings>
       <replace>$scope.audio</replace>
@@ -260,9 +162,14 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
         <option value="$USER_HOME$/Downloads/a.csv" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/a.csv" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/views/flashcards.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/app/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/scss/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/../sight-words-assessment/app/scss/app.scss" />
+        <option value="$PROJECT_DIR$/../sight-words-assessment/app/views/assessment.html" />
       </list>
     </option>
   </component>
@@ -275,7 +182,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../sight-words-assessment/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -302,124 +209,13 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdocs-flashcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="gdocs-flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sight-words-assessment" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -451,6 +247,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -489,9 +293,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -524,38 +325,38 @@
       <option name="presentableId" value="Default" />
       <updated>1491609010101</updated>
       <workItem from="1491609011373" duration="15263000" />
+      <workItem from="1512847138509" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15263000" />
+    <option name="totallyTimeSpent" value="17746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -565,69 +366,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/routes/userRoutes.js">
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/dist/googleSpreadsheetsParser.js">
+    <entry file="file://$PROJECT_DIR$/app/css/app_override.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/demo/index.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="93" />
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/routes/siteRoutes.js">
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="38" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="85" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1511641287000" expanded="true" signature="677:8187" ph="[...]" />
+            <marker date="1511641287000" expanded="true" signature="816:8177" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="1823:7564" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3019:3139" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1511641287000" expanded="true" signature="3181:4181" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3364:4050" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3411:4014" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4216:4407" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4250:4377" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="4470:4698" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4765:5473" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4868:4953" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5016:5110" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5148:5443" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5539:5674" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5722:5842" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5917:6107" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6176:6566" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6242:6535" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6328:6446" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6620:7483" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6853:7406" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="7623:8161" ph="{&quot;url&quot;: '/congratulations?doc&amp;sheet&amp;color'...}" />
+            <marker date="1511641287000" expanded="true" signature="7809:7956" ph="/*...*/" />
+            <marker date="1511641287000" expanded="true" signature="8047:8139" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="8307:8372" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8374:8498" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8500:8615" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8617:8785" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8787:8894" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8896:8976" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8978:9043" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9074:9160" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9162:9573" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9575:9596" ph="//..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,15 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/a.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +445,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -663,24 +463,337 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="110" lean-forward="false" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/routes/userRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/dist/googleSpreadsheetsParser.js" />
+    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/js/routes/siteRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/a.csv" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/a.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="110" lean-forward="false" selection-start-line="3" selection-start-column="110" selection-end-line="3" selection-end-column="110" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="197" column="17" lean-forward="false" selection-start-line="197" selection-start-column="17" selection-end-line="197" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="85" />
           <folding>
-            <marker date="1491799727000" expanded="true" signature="1823:7499" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="677:8187" ph="[...]" />
+            <marker date="1511641287000" expanded="true" signature="816:8177" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="1823:7564" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3019:3139" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1511641287000" expanded="true" signature="3181:4181" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3364:4050" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3411:4014" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4216:4407" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4250:4377" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="4470:4698" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4765:5473" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4868:4953" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5016:5110" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5148:5443" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5539:5674" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5722:5842" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5917:6107" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6176:6566" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6242:6535" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6328:6446" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6620:7483" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6853:7406" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="7623:8161" ph="{&quot;url&quot;: '/congratulations?doc&amp;sheet&amp;color'...}" />
+            <marker date="1511641287000" expanded="true" signature="7809:7956" ph="/*...*/" />
+            <marker date="1511641287000" expanded="true" signature="8047:8139" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="8307:8372" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8374:8498" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8500:8615" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8617:8785" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8787:8894" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8896:8976" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8978:9043" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9074:9160" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9162:9573" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9575:9596" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="69" lean-forward="false" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        <state relative-caret-position="257">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/routes/userRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/dist/googleSpreadsheetsParser.js" />
+    <entry file="file://$PROJECT_DIR$/app/bower_components/google-spreadsheets-parser/demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/js/routes/siteRoutes.js" />
+    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="false" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/a.csv" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/a.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="85" />
+          <folding>
+            <marker date="1511641287000" expanded="true" signature="677:8187" ph="[...]" />
+            <marker date="1511641287000" expanded="true" signature="816:8177" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="1823:7564" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3019:3139" ph="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1511641287000" expanded="true" signature="3181:4181" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3364:4050" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="3411:4014" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4216:4407" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4250:4377" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="4470:4698" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4765:5473" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="4868:4953" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5016:5110" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5148:5443" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5539:5674" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5722:5842" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="5917:6107" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6176:6566" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6242:6535" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6328:6446" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6620:7483" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="6853:7406" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="7623:8161" ph="{&quot;url&quot;: '/congratulations?doc&amp;sheet&amp;color'...}" />
+            <marker date="1511641287000" expanded="true" signature="7809:7956" ph="/*...*/" />
+            <marker date="1511641287000" expanded="true" signature="8047:8139" ph="{...}" />
+            <marker date="1511641287000" expanded="true" signature="8307:8372" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8374:8498" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8500:8615" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8617:8785" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8787:8894" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8896:8976" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="8978:9043" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9074:9160" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9162:9573" ph="//..." />
+            <marker date="1511641287000" expanded="true" signature="9575:9596" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flashcards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app_override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/scss/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sight-words-assessment/app/views/assessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

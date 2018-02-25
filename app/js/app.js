@@ -70,10 +70,13 @@ angular.module('app', [
                                 red: '#EA3424',
                                 orange: '#F19E39',
                                 yellow: '#FEFF54',
-                                'light green': '#AFE8CC',
+                                'light green': '#afe8cc',
                                 'dark green': '#78A65A',
-                                blue: '#cfe6f9',
-                                purple: '#b687d3'
+                                'light blue': '#cfe6f9',
+                                'dark blue': '#4995d2',
+                                purple: '#b687d3',
+                                pink: '#ffa0b1',
+                                silver: '#c5c5c5'
                             };
 
 
